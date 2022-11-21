@@ -30,9 +30,50 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dotenv", "npm:16.0.3"],\
             ["express", "npm:4.18.2"],\
+            ["module-definition", "npm:4.0.0"],\
             ["nodemon", "npm:2.0.20"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@babel/helper-string-parser", [\
+        ["npm:7.19.4", {\
+          "packageLocation": "./.yarn/cache/@babel-helper-string-parser-npm-7.19.4-0db110dc3a-b2f8a3920b.zip/node_modules/@babel/helper-string-parser/",\
+          "packageDependencies": [\
+            ["@babel/helper-string-parser", "npm:7.19.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@babel/helper-validator-identifier", [\
+        ["npm:7.19.1", {\
+          "packageLocation": "./.yarn/cache/@babel-helper-validator-identifier-npm-7.19.1-d84f19e1dc-0eca5e86a7.zip/node_modules/@babel/helper-validator-identifier/",\
+          "packageDependencies": [\
+            ["@babel/helper-validator-identifier", "npm:7.19.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@babel/parser", [\
+        ["npm:7.20.3", {\
+          "packageLocation": "./.yarn/cache/@babel-parser-npm-7.20.3-dba5e30700-33bcdb45de.zip/node_modules/@babel/parser/",\
+          "packageDependencies": [\
+            ["@babel/parser", "npm:7.20.3"],\
+            ["@babel/types", "npm:7.20.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@babel/types", [\
+        ["npm:7.20.2", {\
+          "packageLocation": "./.yarn/cache/@babel-types-npm-7.20.2-0e6581f12d-57e76e5f21.zip/node_modules/@babel/types/",\
+          "packageDependencies": [\
+            ["@babel/types", "npm:7.20.2"],\
+            ["@babel/helper-string-parser", "npm:7.19.4"],\
+            ["@babel/helper-validator-identifier", "npm:7.19.1"],\
+            ["to-fast-properties", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@gar/promisify", [\
@@ -173,6 +214,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/array-flatten-npm-1.1.1-9d94ad5f1d-a9925bf351.zip/node_modules/array-flatten/",\
           "packageDependencies": [\
             ["array-flatten", "npm:1.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["ast-module-types", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/ast-module-types-npm-3.0.0-2f08e895f4-c6ef35d9b2.zip/node_modules/ast-module-types/",\
+          "packageDependencies": [\
+            ["ast-module-types", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1217,6 +1267,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["module-definition", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/module-definition-npm-4.0.0-9bd261ba76-38e26e84b5.zip/node_modules/module-definition/",\
+          "packageDependencies": [\
+            ["module-definition", "npm:4.0.0"],\
+            ["ast-module-types", "npm:3.0.0"],\
+            ["node-source-walk", "npm:5.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ms", [\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/ms-npm-2.0.0-9e1101a471-0e6a22b8b7.zip/node_modules/ms/",\
@@ -1264,6 +1325,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["semver", "npm:7.3.8"],\
             ["tar", "npm:6.1.12"],\
             ["which", "npm:2.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["node-source-walk", [\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/node-source-walk-npm-5.0.0-e05283a96a-5739870ebb.zip/node_modules/node-source-walk/",\
+          "packageDependencies": [\
+            ["node-source-walk", "npm:5.0.0"],\
+            ["@babel/parser", "npm:7.20.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1516,6 +1587,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["render-with-npm", "workspace:."],\
             ["dotenv", "npm:16.0.3"],\
             ["express", "npm:4.18.2"],\
+            ["module-definition", "npm:4.0.0"],\
             ["nodemon", "npm:2.0.20"]\
           ],\
           "linkType": "SOFT"\
@@ -1770,6 +1842,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minizlib", "npm:2.1.2"],\
             ["mkdirp", "npm:1.0.4"],\
             ["yallist", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["to-fast-properties", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/to-fast-properties-npm-2.0.0-0dc60cc481-be2de62fe5.zip/node_modules/to-fast-properties/",\
+          "packageDependencies": [\
+            ["to-fast-properties", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
